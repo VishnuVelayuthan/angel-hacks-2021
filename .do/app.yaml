@@ -1,0 +1,21 @@
+name: angel-hacks-2021
+
+static_sites:
+- name: frontend
+  github:
+    repo: aksh1/angel-hacks-2021
+    branch: main
+    deploy_on_push: true
+  source_dir: mental-health-chatbot
+  routes:
+  - path: /
+
+services:
+- name: backend
+  github:
+    repo: aksh1/angel-hacks-2021
+    branch: main
+    deploy_on_push: true
+  source_dir: app
+  routes:
+  - path: /api

@@ -1,0 +1,72 @@
+html {
+    font-family: "Montserrat", "sans-serif";
+}
+
+.rcw-widget-container .rcw-full-screen {
+    background-color: #cc8800;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+/* TOP CONTAINER *?
+
+/* For the header of the Chatbox */
+.rcw-conversation-container .rcw-header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* For the close button */
+.rcw-full-screen .rcw-close-button {
+    background-color: #f5ba13;
+}
+
+/* For the title */
+.rcw-title {
+    color: #fff;
+    font-family: "McLaren", "cursive";
+    font-weight: 200;
+}
+
+
+/*MESSAGE CONTAINER*/
+
+/* For the body of the Chatbox */
+.rcw-messages-container {
+    background-color: #cc8800;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+/* For the User message text */
+.rcw-message-text {
+    background-color: #F2C883;
+}
+
+
+/*SENDER CONTAINER*/
+
+/* The container of the sender */
+.rcw-sender {
+    background-color: #cc8800;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+}
+
+/* For the send button */
+.rcw-send {
+    background-color: #cc8800;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+/* For the new message sender */
+.rcw-new-message {
+    position: relative; 
+    margin: 30px 100px 60px 100px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+
